@@ -10,12 +10,12 @@ Array.from(buttons).forEach((button)=>{
         }
 
         else if(e.target.innerHTML == 'Clear'){
-            string = "0";
+            string = "";
             document.querySelector('input').value = string;
         }
 
         else if(e.target.innerHTML == 'On/Off'){
-            string = "";
+            string = "Thanks for using me";
             document.querySelector('input').value = string;
         }
 
